@@ -17,6 +17,12 @@ Our old Capistrano system is too much of a ballache to add new tasks to.  Ansibl
 
 This tool provides a basic wrapper around the ansible scripts, and also contains a `qemu` module which is useful for testing ansible scripts locally.
 
+###Setup
+####Installing roles from ansible galaxy
+```
+ansible-galaxy install -r Rolefile
+```
+
 ###Testing
 ####With vagrant
 
